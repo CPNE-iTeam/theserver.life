@@ -1,0 +1,68 @@
+body {
+    color: rgb(255, 242, 219);
+    background-image: url(../image/bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1 {
+    margin-top: 30vh;
+    text-align: center;
+    font-size: 70px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 100px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+section {
+    padding-top: 50px;
+    margin-top: 200px;
+    height: 100vh;
+}
+
+section p {
+    margin-top: 50px;
+    text-align: justify;
+    font-size: 30px;
+    line-height: 50px;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+
+a {
+    text-decoration: none;
+    color: rgb(255, 242, 219);
+}
+
+.action-call-button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 10px 20px;
+    background-color: rgb(255, 242, 219);
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 50px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+}
