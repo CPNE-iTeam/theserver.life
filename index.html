@@ -1,43 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Server</title>
-    <link rel="stylesheet" href="style/style.css">
-    <link rel="stylesheet" href="style/emojisRain.css">
-    <script src="scripts/emojisRain.js" defer></script>
+    <title>theserver.life | Student Collaborative Server</title>
+    
+    <link rel="icon" href="assets/img/idk.png" type="image/png">
+    <link rel="apple-touch-icon" href="assets/img/idk.png">
+    <link rel="shortcut icon" href="assets/img/idk.png" type="image/png">
+    
+    <meta name="theme-color" content="#4285f4">
+    <meta name="msapplication-navbutton-color" content="#4285f4">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#4285f4">
+    
+    <meta property="og:title" content="theserver.life | Student Collaborative Server">
+    <meta property="og:description" content="A collaborative server where Swiss students host their own projects and services.">
+    <meta property="og:image" content="https://theserver.life/assets/img/idk.png">
+    <meta property="og:url" content="https://theserver.life">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="theserver.life">
+    
+    <meta name="twitter:title" content="theserver.life | Student Collaborative Server">
+    <meta name="twitter:description" content="A collaborative server where Swiss students host their own projects and services.">
+    <meta name="twitter:image" content="https://theserver.life/assets/img/idk.png">
+    
+    <meta name="description" content="A private collaborative server where Swiss students can host their projects and services with custom subdomains.">
+    <meta name="keywords" content="server, students, swiss, projects, hosting, collaboration">
+    
+    <link rel="stylesheet" href="assets/styles/styles.css">
 </head>
-
 <body>
-    <div id="emoji-container"></div>
+    <div class="navbar">
+        <div class="container">
+            <a href="#" class="logo">theserver<span class="logo-dot">.life</span></a>
+            <nav>
+                <ul>
+                    <li><a href="#concept">Concept</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
 
-    <h1>Welcome to <del>the</del> <b><u>our</u></b> Internet !</h1>
-    <h2>This webSite has been developed by travelers of the future, to show you a preview of tomorrow's digital
-        innovation.</h2>
-    <a href="#about" onclick="createRain()">
-        <button class="action-call-button">The Future is just here 🚀. Scroll downn...</button>
-    </a>
+    <header>
+        <div class="bg-animation" id="bg-animation"></div>
+        <div class="container">
+            <div class="hero">
+                <h1 class="fade-in">Our private server.<br>Our projects.</h1>
+                <p class="fade-in">A collaborative server where Swiss students host their own projects and services.</p>
+                <div class="cta fade-in">
+                    <a href="#concept" class="btn btn-primary">How it works</a>
+                    <a href="mailto:douxx@theserver.life?subject=Contact+from+theserver+life" class="btn btn-outline">Contact us</a>
+                </div>
+            </div>
+        </div>
+    </header>
 
-    <section id="about" class="about">
-        <h2>About Us</h2>
-        <h3>Tomorrow is a hope. Never a promise.</h3>
-        <p>
-            We are a group of developers, thinkers, innovators and maybe dreamers. Our goal is to shape the digital
-            world of tomorrow. A digital world that is more sercure, more private, more open, more accessible and maybe
-            more fun.
-            <br>
-            <br>
-            We are not here to predict the future, but to create it. We are not here to follow the trends, but to set
-            them.
-            <br>
-            <br>
-            In other words, we are just random guy, who want to use our talents to make the world a better place in the
-            digital age.
-        </p>
+    <section id="concept" class="concepts">
+        <div class="container">
+            <h2 class="fade-in">How It Works</h2>
+            <div class="concepts-grid">
+                <div class="concept-card fade-in">
+                    <h3>🔒 Private Access</h3>
+                    <p>theserver.life is a private server exclusively for Swiss students. Each member gets their own space to host personal projects.</p>
+                </div>
+                <div class="concept-card fade-in">
+                    <h3>🌐 Custom Subdomains</h3>
+                    <p>Every student gets their own subdomains. All *.theserver.life are our users own projects.</p>
+                </div>
+                <div class="concept-card fade-in">
+                    <h3>🚀 Freedom to Create</h3>
+                    <p>From web apps to APIs, from personal blogs to game servers. If you can code it, you can host it here.</p>
+                </div>
+            </div>
+        </div>
     </section>
 
-</body>
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content fade-in">
+                <h2>Made by Students, for Students</h2>
+                <p>theserver.life was created by a group of Swiss students who wanted a space to host their projects without limitations. What started as a small personal server has grown into a collaborative platform where students can showcase their skills and experiment with new technologies.</p>
+                <p>Whether you're building a portfolio, testing a new app, or just need a place to host your games, theserver.life offers a secure and flexible environment for all your projects.</p>
+            </div>
+            <div class="about-image fade-in">
+                <img src="assets/img/idk.png" alt="Student Collaboration" />
+            </div>
+        </div>
+    </section>
 
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>theserver<span class="logo-dot">.life</span></h2>
+                    <p>A collaborative space for Swiss students to host their projects and experiments.</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 theserver.life - Created and maintained by Swiss students</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
 </html>
